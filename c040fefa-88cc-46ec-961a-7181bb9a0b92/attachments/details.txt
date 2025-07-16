@@ -1,0 +1,9 @@
+Reporting-MTA: dns;municipalbank.bg
+Received-From-MTA: dns;defence.ob.bg
+Arrival-Date: Thu, 5 Sep 2024 07:54:24 +0000
+
+Final-Recipient: rfc822;stoyneva@municipalbank.bg
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+

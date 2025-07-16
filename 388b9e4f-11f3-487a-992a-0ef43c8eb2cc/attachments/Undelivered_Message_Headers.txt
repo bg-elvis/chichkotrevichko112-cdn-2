@@ -1,0 +1,26 @@
+Return-Path: <tbl_ood@mail.bg>
+Received: from mail.bg (php3w3.internal [10.0.0.36])
+	by mx3.mail.bg (Postfix) with ESMTPA id 41F0F4114BD4;
+	Tue,  5 Oct 2021 12:10:05 +0300 (EEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mail.bg; s=default;
+	t=1633425005; bh=3HYzxWVDes7NZLJj4LSwQb0tNm7fpvtrKTJRDx7RggQ=;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	b=QOIMlh7lALYk6li7hzzr0vm/Q57IhUCrVO9/3OF+N5TeQO/oNx1eTtY7QpRNWq+QP
+	 MgxUdAph/RsntGT6daSIXbni0uNXTBRyy9nEwo/XywaPl9Q5pYI0rMAS8fJvYncBN7
+	 xHhYdqRz0yUy9yK8Ky/AtN/Qibuh9RPWMKGeevyM=
+Message-ID: <a67dcafa73b117e96f1ba27e3547bbff.mailbg@mail.bg>
+Date: Tue, 5 Oct 2021 09:10:05 -0000
+Subject:
+ =?utf-8?B?0KEg0LzQvtC70LHQsCDQt9CwINC40LfQtNCw0LLQsNC90LUg0L3QsCDRgNC1?=
+ =?utf-8?B?0YTQtdGA0LXQvdGG0LjRjw==?=
+From: tbl_ood@mail.bg
+To: ipavlova@munucipalbank.bg <ipavlova@munucipalbank.bg>,
+ Liliya Stoyneva <lstoyneva@municipalbank.bg>
+User-Agent: Mail.BG Webmail
+MIME-Version: 1.0
+Content-Type: multipart/mixed;boundary="----=_20211005091005_57845"
+X-Confirm-Reading-To: 
+Disposition-Notification-To: 
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Composed: 2021-10-05T09:10:05+00:00

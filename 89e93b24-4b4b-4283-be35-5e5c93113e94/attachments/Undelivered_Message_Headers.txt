@@ -1,0 +1,23 @@
+Return-Path: <tbl_ood@mail.bg>
+Received: from mail.bg (php0w3.internal [10.0.0.33])
+	by mx4.mail.bg (Postfix) with ESMTPA id 6C21F9E113
+	for <tsankova@toplo-plenen.com>; Mon, 14 Oct 2019 15:25:40 +0300 (EEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mail.bg; s=default;
+	t=1571055942; bh=WX+Q1T8lWpLZoi3r/3MMyKqxoxEhQw5iYRU8yqH1q/M=;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	b=8l1a/ET2rng9g7d+qzxXM1ehkenGVSlFC+Hd0HV33aT1KRGjfBgS0Otc/rGw+7MpD
+	 /lBHAdgKYYUgAE4P59CsHnDXE/s3nDEtRIn0EoCgkthNfwMiNVn2y19hcDqQmKwnO5
+	 Uz0h+K8jn4wiAoL2biDzjNJpJgDNaUXEUHxvV9xQ=
+Message-ID: <80f579dda7eac363718c544b928b242c.mailbg@mail.bg>
+Date: Mon, 14 Oct 2019 12:25:40 -0000
+Subject: =?utf-8?B?0KQt0KDQkA==?=
+From: tbl_ood@mail.bg
+To: tsankova@toplo-plenen.com <tsankova@toplo-plenen.com>
+User-Agent: Mail.BG Webmail
+MIME-Version: 1.0
+Content-Type: multipart/mixed;boundary="----=_20191014122540_33282"
+X-Confirm-Reading-To: 
+Disposition-Notification-To: 
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Composed: 2019-10-14T12:25:38+00:00

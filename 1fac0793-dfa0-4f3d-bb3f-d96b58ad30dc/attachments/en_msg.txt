@@ -1,0 +1,34 @@
+Hello,
+You can now store your renewed electronic signature on your smart card. It has the following parameters:
+
+	Valid from:         20 September 2024 02:00:00 (Bulgarian time)
+	Valid to:           20 September 2027 02:00:00 (Bulgarian time)
+	Author (CN):        Dimitar Yordanov Ivanov
+	Tituliar (O):       TIBIEL EOOD
+	Certificate type:   ProfessionalCertificate_QCQES
+	Serial number:      2342449246507670602 
+
+To complete the procedure, follow the steps below:
+
+1. Go to the following address: 
+https://store.borica.bg/bg/b-trust/certificates/renew
+If the link does not work directly, you can copy it and paste it into the address bar of your Web browser.
+
+2. Follow the instructions on the page about storing the electronic signature on your smart card.
+
+In case you experience any problems with your electronic signature, please go to the B-Trust troubleshoot page at http://test.b-trust.org first.
+
+Then you may need to re-register your signature in the sites where you use it. Please check the terms and conditions of the respective sites.
+
+For further information or assistance please call us at
+	Contact center  : (+359) 700 199 10 and *9910
+	E-mail: support@borica.bg
+	every working day: 07:00 – 23:00
+	
+Sincerely: BORICA AD 
+20.09.2024
+
+----------------------------------------------------
+This message is automatically generated.
+Please do not reply. 
+-----------------------------------------------------

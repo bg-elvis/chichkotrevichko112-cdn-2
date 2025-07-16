@@ -1,0 +1,11 @@
+Reporting-MTA: dns; mx3.mail.bg
+X-Postfix-Queue-ID: 41F0F4114BD4
+X-Postfix-Sender: rfc822; tbl_ood@mail.bg
+Arrival-Date: Tue,  5 Oct 2021 12:10:05 +0300 (EEST)
+
+Final-Recipient: rfc822; ipavlova@munucipalbank.bg
+Original-Recipient: rfc822;ipavlova@munucipalbank.bg
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=munucipalbank.bg type=AAAA: Host not found

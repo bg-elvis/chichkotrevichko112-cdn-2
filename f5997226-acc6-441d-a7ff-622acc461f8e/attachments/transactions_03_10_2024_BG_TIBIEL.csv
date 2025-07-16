@@ -1,0 +1,12 @@
+"Transaction Id";"Type";"Started";"Last updated";"Status";"Unit Type";"Quantity";"Transferring Account";"Acquiring Account";"Comment";
+"EU881364";"10-00 Internal Transfer";"20/09/2024 12:14:54";"20/09/2024 12:16:16";"4-COMPLETED";"Multiple";"1234000";"EU-100-5028006-0-73";"EU-100-5036053-0-93";" ";
+"EU881390";"10-00 Internal Transfer";"20/09/2024 12:35:51";"20/09/2024 12:39:08";"4-COMPLETED";"Multiple";"720700";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";
+"EU881411";"10-00 Internal Transfer";"20/09/2024 12:54:42";"20/09/2024 12:57:31";"4-COMPLETED";"EU General Allowance (EUA)";"46700";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";
+"EU881421";"10-00 Internal Transfer";"20/09/2024 13:09:25";"20/09/2024 13:10:01";"4-COMPLETED";"EU General Allowance (EUA)";"159200";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";
+"EU881452";"10-00 Internal Transfer";"20/09/2024 13:32:32";"20/09/2024 13:35:21";"4-COMPLETED";"EU General Allowance (EUA)";"199600";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";
+"EU881464";"10-00 Internal Transfer";"20/09/2024 13:43:54";"20/09/2024 13:44:20";"4-COMPLETED";"EU General Allowance (EUA)";"73400";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";
+"EU881466";"10-00 Internal Transfer";"20/09/2024 13:51:37";"20/09/2024 13:51:56";"4-COMPLETED";"EU General Allowance (EUA)";"44700";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";
+"EU881472";"10-00 Internal Transfer";"20/09/2024 13:58:45";"20/09/2024 13:59:05";"4-COMPLETED";"EU General Allowance (EUA)";"68900";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";
+"EU881475";"10-00 Internal Transfer";"20/09/2024 14:08:17";"20/09/2024 14:08:40";"4-COMPLETED";"EU General Allowance (EUA)";"19100";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";
+"EU881481";"10-00 Internal Transfer";"20/09/2024 14:16:06";"20/09/2024 14:16:26";"4-COMPLETED";"EU General Allowance (EUA)";"6600";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";
+"EU881488";"10-00 Internal Transfer";"20/09/2024 14:24:19";"20/09/2024 14:27:02";"4-COMPLETED";"EU General Allowance (EUA)";"11800";"EU-100-5036053-0-93";"EU-100-5028006-0-73";" ";

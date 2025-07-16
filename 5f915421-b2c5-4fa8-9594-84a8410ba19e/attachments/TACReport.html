@@ -1,0 +1,794 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="content-type" content="text/html; charset=windows-1251"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" /><style type="text/css">
+    body{
+        background-color:#dadde0;
+        margin:0px;
+        /* overflow:auto;*/
+        font-size:0.8em;
+        font-family:verdana;
+    }
+    table.main{
+        width:100%;
+    }
+
+    
+@media screen{
+
+    table.main td.mainleft{
+        font-size:0px;
+        background-image:url(../images/bodybg-left.gif);
+        background-repeat:repeat-y;
+        background-position:right;
+        width:9px;  
+    }
+    table.main td.mainright{
+        font-size:0px;
+        background-image:url(../images/bodybg-right.gif);
+        background-repeat:repeat-y;
+        background-position:left;
+        width:9px;
+    }
+    table.main td.mainheader{
+        /*
+        background-color:white;
+        background-image:url(../images/body_header_bg.gif);
+        */
+        background-color:#fffbf8;
+        background-repeat:repeat-x;
+        background-position: top left;
+        text-align:left;
+        width:auto;
+        height:146px;
+        vertical-align:bottom;
+    }
+table.main td.mainheader #headermenu {
+    margin:0px;
+    padding:0px;
+    margin-right:10px;
+}
+
+table.main td.mainheader #headermenu ul{
+    background-image:url(../images/header_menuitem_bg.jpg);
+    background-repeat:repeat-x;
+    list-style:none;
+    padding:0px;
+    margin:0px;
+    height:27px;
+    padding-right:5px;
+    position:absolute;
+    top:0px;
+    right:9px;
+}
+
+table.main td.mainheader #headermenu ul li{
+    float:left;
+    height:27px;
+    background-repeat:no-repeat;
+    background-image:url(../images/header_menuitem_separator.jpg);
+    padding-left:5px;
+}
+
+table.main td.mainheader #headermenu ul li.first{
+    background-image:url(../images/header_menu_starter.jpg);
+    padding-left:63px;
+}
+
+table.main td.mainheader #headermenu ul li a{
+    color:#bebefe; 
+    line-height:20px;
+    padding-left:4px; 
+    padding-right:4px;
+}
+
+table.main td.mainheader #headermenu ul li a:hover{
+    color:#fafafa; 
+}
+
+table.main td.mainheader #headermenu span {
+    position:absolute;
+    right:12px;
+    top:35px;
+    display:block;
+}
+    
+table.main td.mainheader #logo {
+    position:absolute;
+    top:0px;
+    left:9;
+    width:665px;
+    height:97px;
+    background:url("../images/logo_portal_eservices.jpg") no-repeat 0 0;
+}
+
+    table.main td.mainbl{
+         background-image:url(../images/body_bottomleft.gif);
+         background-repeat:no-repeat;
+         width:9px;
+         height:9px;
+         font-size:0px;
+    }
+    table.main td.mainbr{
+         background-image:url(../images/body_bottomright.gif);
+         background-repeat:no-repeat;
+         width:9px;
+         height:9px;
+         font-size:0px;
+    }
+    table.main td.mainbottom{
+         background-image:url(../images/body_bottom.gif);
+         background-repeat:repeat-x;
+         height:9px;
+         font-size:0px;
+         width:auto;
+    }
+    
+    table.main td.mainmain{
+        background-color:white;
+        padding-bottom:10px;
+        text-align:left;
+        width:inherit;
+    }
+
+    
+    div.header{
+        background-image:url(../images/topheader.jpg);
+        height:49px;
+        background-repeat:no-repeat;
+        padding-top:20px;
+        font-size:1.8em;
+        font-family:helen bg;
+        padding-left:390px;
+        color:#1e4387;
+    }
+    
+    div.blueline{
+        position:relative;
+        background-image:url(../images/topblueline.gif);
+        height:12px;
+        _font-size:1px;
+    }
+    
+    div.menubar{
+        background-image:url(../images/topmenu_bg.gif);
+        background-repeat:repeat-x;
+        height:36px;
+        z-index:10;
+    }
+    /* списък на формулярите */
+    #page ul.list { 
+        list-style:none;
+        margin:5px;
+        padding:0px;
+        background-color:#f3f4f2;
+        
+        background-repeat:repeat-x;
+        background-position:bottom;
+        border:1px solid #b7b7b7;
+        
+    }
+    
+    #page ul.list li.title{
+        padding:5px;
+        margin:0px;
+        background-color:#f0f0f1;
+        border-top: 1px solid white;
+        border-bottom:1px solid #cccccc;
+        font-size:1.2em;
+        font-weight:bold;
+        color:#1C4186;
+        background-image:url(../images/partmenu_bg.gif);
+        background-repeat:repeat-x;
+        background-position:bottom;
+        line-height:24px;
+    }
+    #page ul.list li{
+        border-top:1px solid white;
+        border-bottom:1px solid #cccccc;
+        padding:3px;
+    }
+    #page ul.list li a{
+        padding-left:20px;
+        display:block;
+        
+        line-height:2.5em;
+        border-top:1px solid #f0f0f1;
+        border-bottom:1px solid #ffffff;
+        color:#434343;
+        text-decoration:none;
+        font-weight:bold;
+    }
+    #page ul.list li a:hover{
+        border-top:1px solid #d1d4d9;
+        background-color:#ebeff4;
+        background-image:url(../images/servicelink_selected.jpg);
+        background-repeat:repeat-x;
+        background-position:bottom;
+        color:#1C4186;
+    }
+    #page ul.list li span{
+        font-size:0.8em;
+        padding-left:40px;
+        color:#656565;
+    }
+    #page ul.list li div.actions {
+        padding-top:2px;
+        float:right;
+    }
+    #page ul.list li div.actions a{
+        padding:4px;
+        display:block;
+        float:left;
+        line-height:20px;
+        border:1px solid #dddddd;
+        border-bottom:1px solid #999999;
+        border-right:1px solid #999999;
+        color:#434343;
+        text-decoration:none;
+        background-image:url(../images/link_bg.jpg);
+        background-repeat:repeat-x;
+        background-color:#cfdeeb;
+        margin-left:1px;
+    }
+
+    #page input{
+        background-color:#dfeeff;
+        border:1px solid #495668;
+        color:black;
+    }
+
+    #page input.cell{
+        background-image:url(../images/inputbg.png);
+        background-repeat:repeat-x;
+        background-position: left bottom;
+        font-family: courier new, sans-serif;
+        font-size:15px;
+        letter-spacing:3px;
+        padding-left:1px;
+        padding-right:2px;
+        text-align:left;    
+    }
+
+    #page div.copyright {
+        color:#1e4387;
+        font-size:0.8em;
+        font-weight:bold;
+    }
+    #page div.copyright a{
+        padding-left:3px; 
+        padding-right:3px;
+    }
+}
+@media print{
+
+    body{
+        background-color:white;
+    }
+
+    table.main td.mainleft *, table.main td.mainright *,
+    table.main td.mainheader *,table.main td.mainbl *, 
+    table.main td.mainbottom *, table.main td.mainbr * { 
+        display:none;
+    }
+    div#leftcontainer *{
+        display:none !important;
+    }
+    #page{
+        clear:both;
+        border:0px solid !important;
+        margin:0px !important;
+        padding:0px !important;
+        
+    }
+    .noprint{
+        display:none !important;
+    }
+    div.copyright{
+        display:none !important;
+    }
+    #userinfo {
+        display:none !important;
+    }
+}
+@media screen{
+	#classFrm{
+		overflow:auto;
+		height: 100px;
+		width:98%;
+		border:1px solid black;
+	}
+	#classFrm td{
+		border:0px none;
+	}
+	#classFrm a{
+		color: #000000; 
+		text-decoration: none; 
+		font-family: Tahoma, Verdana; 
+		font-size: 12px;
+		border:0px none;
+		
+	}
+
+	
+	
+}
+
+	form {
+		display:inline;
+		margin:0px;
+		padding:0px;
+	}
+	table.form {
+		margin-top:20px;
+		border: 1px solid #495668;
+		font-size: 9pt; 
+		border-collapse: collapse;
+		background-color:#fafafa;
+		color: #495668; 
+		margin-bottom:20px;
+	} 
+	table.form th{
+		padding:3px;
+		color:white;
+		background-color:#627692;/*#a9d7c6; /*#b8ded0; */
+		font-weight: bold;
+		border:1px solid #495668;
+		
+	}
+	table.form td{
+		white-space:normal;
+		border:1px solid #495668;
+	}
+	
+	table.form tr.footer td{
+		border-bottom: 1px solid #495668;
+		background-color: #ced7e3; 
+	}
+	table.form tr.header td{
+		border-bottom: 1px solid #495668;
+		background-color: #ced7e3; /*#d3e3dd; */
+	}
+	
+	table.formtd.info{
+		background-color:#f8faea;
+		padding:5px;
+		text-align:justify;
+	
+	}
+		
+	/**** inline ****/
+    table.forminline {
+		margin-top:20px;
+		border: 1px solid #495668;
+		font-size: 9pt; 
+		border-collapse: collapse;
+		background-color:#fafafa;
+		color: #495668; 
+		margin-bottom:20px;
+	} 
+	table.forminline th{
+		padding:3px;
+		color:white;
+		background-color:#627692;/*#a9d7c6; /*#b8ded0; */
+		font-weight: bold;
+		border:1px solid #495668;		
+	}
+	table.forminline td{
+		white-space:normal;
+		border:none;
+		padding:5px;
+	}
+
+	table.forminline tr.footer td{
+		border-bottom: 1px solid #495668;
+	}
+	table.forminline tr.header td{
+		border-bottom: 1px solid #495668;
+	}
+
+	/**** noborder ****/
+	
+	
+	table.noborder, table.noborder td{
+		border:0px none;
+	}
+	
+	table.form td.index{
+		background-color:#e8e8e8;
+		font-size:8pt;
+		font-family:arial;
+		white-space:nowrap;
+		width:50px; !important;
+		text-align:center;
+	}
+	
+	table.form > td.info{
+		background-color:#ff0000;
+	}
+	
+	
+	input{
+		background-color:#dfeeff;
+		border:1px solid #495668;
+		color:black;
+	}
+	input[disabled]{
+		background-color:#dddddd;
+	}
+	input.calc{
+		background-color:#f6f6d3; /*ebcacf; /* cdb8d1 /*#c9e6d7;*/
+	 /* width:90%;*/
+		max-width:76px;
+		width:76px;
+		text-align:right;
+		/*width:expression(this.parentElement.clientWidth > 80?'76px':'90%');*/
+	}
+	
+	input.left{
+		/*margin:2px;*/
+		-moz-box-sizing:border-box;
+	 
+		border:1px solid #495668;
+		color:black;
+		text-align:left;
+		width:98%;
+		width:expression(this.parentElement.clientWidth > 210?'98%':'90%');
+		
+	 
+	}
+	
+	input.disabled {
+		background-color:#dddddd;
+		color:#bbbbbb;
+		border:1px solid #999999;
+		width:66px;
+		text-align:right;
+	}
+	
+	input.disabledcell{
+		background-image:url(../images/inputbg.png);
+		background-color:#dddddd;
+		border:1px solid #999999;
+		background-repeat:repeat-x;
+		background-position: left bottom;
+		font-family: courier new, sans-serif;
+		font-size:15px;
+		letter-spacing:3px;
+		padding-left:1px;
+		padding-right:2px;
+		text-align:left;	
+	}
+	
+	input.tiny {
+		width:45px;
+	}
+	
+	input.right{
+		text-align:right;
+		width:76px;
+	 /* width:expression(this.parentElement.clientWidth > 76?'76px':'90%');*/
+	}
+/*	input[class="right"]{
+		width:90%;
+		max-width:76px;
+		
+	}
+*/	
+	input.rightnosize{
+		text-align:right;
+		width:inherit;
+	}
+	
+	input.image{
+		width:auto;
+	}
+	
+	input.button{
+		background-image:url(../images/buttonbg.png);
+		background-repeat:repeat-x;
+		
+		border:1px solid #495668;
+		color:black;
+		/*width:auto;*/
+	}
+	input.cell{
+		background-image:url(../images/inputbg.png);
+		background-repeat:repeat-x;
+		background-position: left bottom;
+		font-family: courier new, sans-serif;
+		font-size:15px;
+		letter-spacing:3px;
+		padding-left:1px;
+		padding-right:2px;
+		text-align:left;	
+	}
+	
+	input.checkbox{
+		background-color:none;
+		border:0px none;
+	}
+	
+	select{
+		background-color:#dfeeff;
+		border:1px solid #495668;
+		color:black;
+	}
+	
+	img.button{
+		cursor:pointer;
+		border:0px none;
+	}
+	
+	span.cell{
+		display:block;
+		background-image:url(../images/inputbg.png);
+		background-color:#E9EDEF;
+		border:1px solid #999999;
+		background-repeat:repeat-x;
+		background-position: left bottom;
+		font-family: courier new, sans-serif;
+		font-size:15px;
+		letter-spacing:3px;
+		padding-left:1px;
+		padding-right:2px;
+		text-align:left;	
+	}
+	span.value {
+		display:block;
+		
+		background-color:#E9EDEF;
+		border:1px solid #999999;
+		color:black;
+		line-height:10pt;
+		
+	}
+		span.checkbox {
+		display:block;
+		float:left;
+		margin-left:4px;
+		margin-right:4px;
+		background-color:#E9EDEF;
+		border:1px solid #999999;
+		line-height:10pt;
+		text-align:center;
+		width:12pt;
+		color:green;
+	}
+/**** writetable    ****/
+
+table.writetable {
+    margin-top:20px;
+    border: 1px solid #495668;
+    font-size: 12px; 
+    background-color:#D8E3EF;
+    color:#495668;
+}
+table.writetable th {
+    font-size: 11px; 
+    color: #ffffff; 
+    background-color: #6a80a8; 
+    font-weight: bold;
+    border:0px;
+    border-bottom: 1px solid #495668;
+}
+table.writetable td.white{
+    border:0px;
+    border-bottom: 1px solid #495668;
+    color: #495668; 
+    background-color:#fefeff;
+}
+table.writetable td {
+        border:0px;
+		border-bottom:1px solid #8399AC;
+		border-top:1px solid #fdfdfd;
+		border-right:1px solid #9ea8b1;
+
+}
+table.writetable tr.mover td {
+		background-color:#e8f0fb;
+
+}
+table.writetable tr.footer td {
+		background-color:#b9c7d6;
+
+}
+table.writetable tr.firstrow td{
+    border:0px;
+    border-bottom: 1px solid #495668;
+    color: black; 
+    background-color:#b9c7d6;
+    border-right:1px solid #9ea8b1;
+}
+table.writetable a{
+    text-decoration:none;
+    color:#495668;
+}
+table.writetable a:hover{
+    text-decoration:underline;
+}
+
+table.writetable a.action{
+    -moz-box-sizing:  padding-box;
+    float:left;
+    display:block;
+    margin:2px;
+    padding:2px;
+    border:1px solid #D8E3EF;
+}
+table.writetable a.action:hover{
+    border:1px solid #49685f;
+    background-color:#d8efe4;
+    text-decoration:none;
+ 
+}
+
+
+
+	
+</style>	
+	
+	
+</head>
+<body>
+<div id="page"><table class="form" align="center" border="0" cellpadding="5" cellspacing="0" width="95%">
+    <tr><th>НАЦИОНАЛНА АГЕНЦИЯ ЗА ПРИХОДИТЕ<br>ЕИК по БУЛСТАТ 131063188</th></tr>
+    <tr>
+      <td>
+        <br>
+        <div align="center">
+          <b>СПРАВКА ЗА ЗАДЪЛЖЕНИЯТА<br/>КЪМ ДАТА 21.08.2018</b>
+        </div>
+        <br><table align="center" class="noborder">
+  <tr><td align="right" width="50%">ЕГН/ЛНЧ/Сл.номер/БУЛСТАТ:</td><td width="50%"><strong>106588084</strong></td></tr>
+  <tr><td align="right">Име:</td><td><strong>ТИБИЕЛ</strong></td></tr>
+  <tr><td align="right">Дата и час на отпечатване:</td><td><strong>21.08.2018 13:31:33</strong></td></tr>
+</table><div style="font-weight:bold; padding:10px; margin:20px; border:1px solid red;">
+Внимание: Задълженията за авансови вноски, декларирани с ГДД по чл.92 от ЗКПО (ГДД по чл.50 от ЗДДФЛ – за ЕТ), декларация по чл.88 от ЗКПО, декларации обр.№1 (вид осигурен 22 и 23), декларация обр.№5 (вид осигурен 12 и 13), както и задълженията за здравни вноски, възникващи на основание подадена декларация обр.№7, се начисляват в данъчно-осигурителната сметка на задълженото лице на 1-во число в месеца, през който изтича крайният срок за плащане на съответното задължение. При липса на друго задължение от същия вид с по-ранен срок за плащане, всяка наредена сума след 1-во число по съответната банкова сметка ще погасява описаните по-долу задължения.</div>
+<div style="font-weight:bold; padding:10px; margin:20px; border:1px solid red;">
+Данните са актуални към 21.08.2018 г.
+</div>
+
+    
+    <table cellspacing="0" cellpadding="0" class="form">
+    <tr class="header">
+      <td>Вид задължение</td>
+      <td>Вид документ</td>
+      <td>Документ №</td>
+      <td>Дата</td>
+      <td>Период (от-до)</td>
+      <td>Срок за плащане</td>
+      <td>Остатък главница (лв.)</td>
+      <td>Остатък лихва (лв.)</td>
+      <td>Общо (лв.)</td>
+      <td>Забележка</td>
+    </tr>
+<tr><td>Няма задължения </td><td></td><td></td><td></td><td></td><td></td><td align="right"></td><td align="right"></td><td align="right"></td><td align="left"></td></tr>
+</table>
+<div align="left"><b>Справка за задълженията, плащанията по които подлежат на разпределение от   публичен изпълнител</b></div>
+<div style="font-weight:bold; padding:10px; margin:20px; border:1px solid red;">
+Данните са актуални към 21.08.2018 г.
+</div>
+
+    <table cellspacing="0" cellpadding="0" class="form">
+    <tr class="header">
+      <td>№ и година на изпълнително дело</td>
+      <td>Вид документ(изпълнително основание)/вид задължение</td>
+      <td>№ и дата на документ/изпълнително основание</td>
+      <td>Актосъставител/Взискател</td>
+      <td>Период (от-до)</td>
+      <td>Срок за доброволно плащане</td>            
+      <td>Остатък главница (лв.)</td>
+      <td>Остатък лихва (лв.)</td>
+      <td>Общо (лв.)</td>
+      <td>Забележка</td>
+    </tr>
+<tr><td>Няма задължения </td><td></td><td></td><td></td><td>-</td><td></td><td align="right"></td><td align="right"></td><td align="right"></td><td align="left"></td></tr>
+</table>
+<div align="left"><b>Справка за погасени по давност/отписани задължения</b></div>
+<div style="font-weight:bold; padding:10px; margin:20px; border:1px solid red;">
+Данните са актуални към 21.08.2018 г.
+</div>
+
+    <table cellspacing="0" cellpadding="0" class="form">
+    <tr class="header">
+      <td>Вид документ(изпълнително  основание)/вид задължение</td>
+      <td>№ и дата на документ/изпълнително основание </td>
+      <td>Актосъставител/ Взискател</td>
+      <td>Период  (от-до)</td>
+      <td>Срок за доброволно плащане</td>
+      <td>Размер на погасeната по давност/ отписана главница (лв.)</td>
+      <td>Размер на погасената по давност/отписана лихва (лв.)</td>
+      <td>Общ размер на погасеното по давност/отписано задължение (лв.)</td>
+      
+    </tr>
+<tr><td>Няма погасени по давност/отписани задължения </td><td></td><td></td><td></td><td></td><td align="right"></td><td align="right"></td><td align="right"></td></tr>
+</table>
+<div style="font-weight:bold; padding:10px; margin:20px; border:1px solid red;">
+
+<p>* Погасените по давност/отписани просрочени задължения, установявани от НАП (актосъставител НАП), може да платите по съответните сметки на Агенцията, след подаване в компетентния офис на НАП на заявление по чл.169, ал.4 от ДОПК.</p>
+<p>** По сметки на НАП не се заплащат погасените по давност/отписани просрочени задължения, установявани от актосъставители, различни от НАП. Информация относно начините за плащане на тези задължения може да получите от съответния актосъставител.</p>
+<p>*** Информация за погасените по давност/отписани просрочени задължения, установявани от актосъставители, различни от НАП, се поддържа в ИС на НАП след 01.02.2016 г.</p></div>
+</td></tr></table>
+<div id="hidden" style="display:none;">
+<form method="post" name="paytax" action="" onsubmit="return false;">
+      <table cellspacing="0" cellpadding="5" class="form" align="center" width="80%">
+        <tr class="header"><td>Вид плащане</td><td>Сума на задължения</td><td>Сума на лихви<br/>към 21.08.2018</td><td>Дължима сума</td><td width="120">Сума за плащане</td></tr>
+
+<tr><td></td><td>0.00</td><td>0.00</td><td>0.00</td><td><input title="Попълване на цялата дължима сума" type="button" class="button" value="->" onclick="setVal(this,0)"><input lang="pc" class="right" type="text" name="tax_-1"  onblur="sumPartials();"></td></tr>
+<tr><td>Принудително събиране на публични вземания</td><td>0.00</td><td>0.00</td><td>0.00</td><td><input title="Попълване на цялата дължима сума" type="button" class="button" value="->" onclick="setVal(this,0)"><input lang="pc" class="right" type="text" name="tax_0"  onblur="sumPartials();"></td></tr>
+ <tr><td><b>Общо</b></td><td><b>0.00</b></td><td><b>0.00</b></td><td><b>0.00</b></td><td><b><span id="pay_total"></span></b></td></tr>
+        <tr class="footer"><td colspan="5" align="right"><input id="do_back" onclick="hideForm();" type="button" class="button" value="Обратно към справката"/><input id="do_payment" onclick="submitForm(this.form,'!rep.tac.createOrder');" type="button" class="button" value="Продължи"/></td></tr>
+      </table>
+      </form>
+</div>
+<span style="display:none;">a<script type="text/javascript">
+  try{
+    if(window.name != "upload_target"){
+
+function showForm(el){
+  var els = document.getElementsByTagName('*');
+  for (var i = 0; i < els.length; i++) { 
+    if (els[i].id=='hidden') els[i].style.display='';
+  }
+  $(".form.noprint").hide();
+  $("html").animate({ scrollTop: $("form[name='paytax']").offset().top}, 1000);
+}
+function hideForm(){
+  var els = document.getElementsByTagName('*');
+    for (var i = 0; i < els.length; i++) { 
+      if (els[i].id=='hidden') els[i].style.display='none';
+    }
+  $(".form.noprint").show();
+}
+
+function setVal(el, val) { 
+  el.nextSibling.value = val.toFixed(2);
+  sumPartials();
+}
+
+function sumPartials(){
+  var sum = 0, 
+  f = document.forms['paytax'];
+  for (var i = 0; i < f.length; i++) {
+  if(f[i].name.substr(0,4)=='tax_')
+    sum += (f[i].value? parseFloat(f[i].value):0);
+  }
+  document.getElementById('pay_total').innerHTML = sum.toFixed(2);
+  toggleButtons(f,sum>0);  
+}
+
+function toggleButtons(f,s){
+  var d,c;
+  if (s) {
+    d = false;
+    c = '';
+  } else { 
+    d = true;
+    c = '#bbbbbb';
+  }
+  for (var i = 0; i < f.length; i++) {  
+    if(f[i].id =='do_payment') {
+      f[i].style.color = c;
+      f[i].disabled = d;
+    }
+  }
+}
+function checkVal(el, limit) { 
+  if (parseFloat(el.value) > limit) {
+    alert('Внимание! Стойността, която сте въвели за плащане надвишава дължимата сума по задължението');
+    return false;
+  }
+  return true;
+}
+setEventHandlers(document.forms['paytax']);
+sumPartials(); 
+    }
+  } catch(e){}
+    </script></span>
+</div>
+</div>
+</body>
+</html>

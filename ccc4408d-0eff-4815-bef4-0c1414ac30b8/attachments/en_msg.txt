@@ -1,0 +1,31 @@
+Hello,
+The term of your electronic signature will expire after 7  days, on 21 September 2024 02:00:00 (Bulgarian time).
+
+You can submit a renewal request with a valid electronic signature through our online store at: https://store.borica.bg/bg/b-trust/certificates/renew until 21 Септември 2024 02:00:00 (Българско време)
+
+IF YOU MISS THE DEADLINE or if your signature data has changed, THE SIGNATURE CAN NOT BE RENEWED and will have to be reissued.
+
+If you have B-Trust e-mail, please also select a subscription to this service when submitting the request.
+
+Details of your electronic signature: 
+	Valid from:		22 September 2023 02:00:00 (Bulgarian time)
+	Expires on:		21 September 2024 02:00:00 (Bulgarian time)
+	Author (CN):		Dimitar Yordanov Ivanov
+	Holder (O):		TIBIEL EOOD
+	Type:				ProfessionalCertificate_QCQES
+	Serial number:		2342449246507670602
+
+After submitting an online request for renewal and making the payment, please wait for an e-mail notification that the validity term of your certificate has been prolonged successfully. Store the new e-signature on the smart card by following the e-mail instructions. 
+
+For further information or assistance please call us at
+	Contact center  : (+359) 700 199 10 and *9910
+	E-mail: support@borica.bg
+	every working day: 07:00 – 23:00
+	
+Sincerely: BORICA AD 
+14.09.2024
+
+----------------------------------------------------
+This message is automatically generated.
+Please do not reply. 
+----------------------------------------------------

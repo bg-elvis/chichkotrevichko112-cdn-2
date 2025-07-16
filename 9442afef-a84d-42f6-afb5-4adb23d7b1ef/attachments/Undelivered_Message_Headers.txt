@@ -1,0 +1,30 @@
+Return-Path: <tbl_ood@mail.bg>
+Received: from mail.bg (php2w1.internal [10.0.0.26])
+	by mx5.mail.bg (Postfix) with ESMTPA id 11D6B8108619
+	for <kristina.lazarov@gmail.com>; Fri, 11 Feb 2022 15:20:19 +0200 (EET)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mail.bg; s=default;
+	t=1644585619; bh=1xMPcW8yx2gYz0oTVKA4XIdaspAcOfBhR6RgUQ/WSaQ=;
+	h=Message-ID:In-Reply-To:References:Date:Subject:From:To:
+	 MIME-Version:Content-Type;
+	b=nGQGpotu08phLKdt+dmcKQSYJnSmOiM95HreJ2iTwu2OwhHPwyRPfUROXCDHDdc2k
+	 WSOxMCvx4aSJ+y5cjK4lnh69AfHL4tnrIy4EGp/5QynucNugx9vpmqamyT/XZJRGEx
+	 p2Pd/61Ff3PWGhnwuPgSZJjv0c8VrsvRvs2omt6w=
+Message-ID: <cad21677ffe87732674b3d715f00efc9.mailbg@mail.bg>
+In-Reply-To:
+ <CACJt8z8M5Zn8aGqw2=xC42M-hCBvD4KQns7qTpx=VirjKO_i3w@mail.gmail.com>
+References:
+    <CACJt8z8M5Zn8aGqw2=xC42M-hCBvD4KQns7qTpx=VirjKO_i3w@mail.gmail.com>
+Date: Fri, 11 Feb 2022 14:20:19 +0100
+Subject:
+ =?utf-8?B?UkU6IEZ3ZDog0JTQvtC60YPQvNC10L3RgtC4INC30LAg0LvQuNC30LjQvdCz?=
+ =?utf-8?B?IEJNVyA1MzBkIHhEcml2ZSAtINCcINCa0LDRgCDQodC+0YTQuNGP?=
+From: tbl_ood@mail.bg
+To: =?utf-8?B?0JrRgNC40YHRgtC40L3QsCDQm9Cw0LfQsNGA0L7QstCw?= <kristina.lazarov@gmail.com>
+User-Agent: SquirrelMail/1.4.21
+MIME-Version: 1.0
+Content-Type: multipart/mixed;boundary="----=_20220211142019_55672"
+X-Confirm-Reading-To: 
+Disposition-Notification-To: 
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Composed: 2022-02-11T14:20:19+01:00

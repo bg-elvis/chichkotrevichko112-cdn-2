@@ -1,0 +1,16 @@
+Reporting-MTA: dns; mx5.mail.bg
+X-Postfix-Queue-ID: 11D6B8108619
+X-Postfix-Sender: rfc822; tbl_ood@mail.bg
+Arrival-Date: Fri, 11 Feb 2022 15:20:19 +0200 (EET)
+
+Final-Recipient: rfc822; kristina.lazarov@gmail.com
+Original-Recipient: rfc822;kristina.lazarov@gmail.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 [193.201.172.121      12] Our system has
+    detected that this message is 550-5.7.1 likely unsolicited mail. To reduce
+    the amount of spam sent to Gmail, 550-5.7.1 this message has been blocked.
+    Please visit 550-5.7.1
+    https://support.google.com/mail/?p=UnsolicitedMessageError 550 5.7.1  for
+    more information. z15si9150924edx.478 - gsmtp

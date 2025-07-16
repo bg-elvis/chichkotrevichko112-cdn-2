@@ -1,0 +1,31 @@
+Hello,
+We inform you that a B-Trust certificate for electronic signature has been issued with the following parameters:
+
+	Author (CN):         Dimitar Yordanov Ivanov
+	Titular (O):       TIBIEL EOOD
+	Certificate type: ProfessionalCertificate_QCQES
+	Serial number:       2342449246507670602 
+	Valid from:         2019-09-26 10:23:08
+	Valid to:         2020-09-25 10:23:08
+
+Download the appropriate for your operation system installation package from https://www.b-trust.bg website, section "Services and queries" - "INSTALLATION OF E-SIGNATURES".
+In case you experience any problems with your electronic signature, please go to the B-Trust troubleshoot page at http://test.b-trust.org first.
+
+Thank you for choosing B-Trust certificate for electronic signature!
+
+Contacts:
+
+Telephone: (+359) 700 199 10
+
+Address: Sofia – 1612, 41 Tsar Boris III blvd.
+
+E-mail: aops@borica.bg, support@borica.bg,
+
+Sincerely: BORICA AD
+ 
+26.09.2019
+Sofia         https://store.borica.bg/bg/b-trust/certificates
+----------------------------------------------------
+This message is automatically generated.
+Please do not reply. 
+-----------------------------------------------------

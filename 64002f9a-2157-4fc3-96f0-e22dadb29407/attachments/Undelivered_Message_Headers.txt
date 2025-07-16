@@ -1,0 +1,26 @@
+Return-Path: <tbl_ood@mail.bg>
+Received: from mail.bg (php6w2.internal [10.0.0.22])
+	by mx5.mail.bg (Postfix) with ESMTPA id 36CA1808E4DC;
+	Wed, 30 Dec 2020 13:24:40 +0200 (EET)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mail.bg; s=default;
+	t=1609327480; bh=oTJRVh0X+6FilkIA1n8+uZuOU1L2OFa2eVZb73JyuRI=;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	b=04VH+WxUExURt6e2Kk2GVqhHTJRFYxtMbF3W3gSrDjCd6Fgd50rEMshW5xCGZwg/T
+	 ledrLRfrCVNBQYl7pi42Y3LZxKOqXh/A+HypZntUIDg0kTHvYsDqejwnIBr+A0oK7c
+	 Gmw88lWlpi3RGQ75avbIRHBiD1LcWRJprYijGbbc=
+Message-ID: <d3a45dac3649bfd2830a01766c8b8306.mailbg@mail.bg>
+Date: Wed, 30 Dec 2020 11:24:40 -0000
+Subject:
+ =?utf-8?B?0YMt0L3QuNC1INC30LAg0LvQuNC/0YHQsCDQvdCwINC30LDQtNGK0LvQttC1?=
+ =?utf-8?B?0L3QuNC1?=
+From: tbl_ood@mail.bg
+To: nedeva.angelina@gmail.com <nedeva.angelina@gmail.com>,
+ anliiqdonkova@gmail.com <anliiqdonkova@gmail.com>
+User-Agent: Mail.BG Webmail
+MIME-Version: 1.0
+Content-Type: multipart/mixed;boundary="----=_20201230112440_83999"
+X-Confirm-Reading-To: 
+Disposition-Notification-To: 
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Composed: 2020-12-30T11:24:40+00:00

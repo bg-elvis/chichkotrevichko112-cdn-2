@@ -1,0 +1,32 @@
+Hello,
+We hereby inform you that you can now record your renewed electronic signature in your smart card:
+
+	Valid from:         23 September 2022 02:00:00 (Bulgarian time)
+	Valid to:           23 September 2023 02:00:00 (Bulgarian time)
+	Author (CN):        Dimitar Yordanov Ivanov
+	Tituliar (O):       TIBIEL EOOD
+	Certificate type:   ProfessionalCertificate_QCQES
+	Serial number:      2342449246507670602 
+
+To complete the procedure, follow the steps below:
+
+1. Go to the following address: 
+https://store.borica.bg/bg/b-trust/certificates/renew
+If the link does not work, you can copy it from here and paste it into the address bar of your Web browser.
+
+2. Follow the instructions on the page to record the electronic signature in your smart card.
+
+In case you need to re-register your signature in the applications which you used, please check the terms and conditions of the sites.
+
+For further information or assistance please call us at
+	Contact center  : (+359) 700 199 10 and *9910
+	E-mail: support@borica.bg
+	every working day: 07:00 – 23:00
+	
+Sincerely: BORICA AD 
+23.09.2022
+
+----------------------------------------------------
+This message is automatically generated.
+Please do not reply. 
+-----------------------------------------------------

@@ -1,0 +1,11 @@
+Reporting-MTA: dns; mx4.mail.bg
+X-Postfix-Queue-ID: 6C21F9E113
+X-Postfix-Sender: rfc822; tbl_ood@mail.bg
+Arrival-Date: Mon, 14 Oct 2019 15:25:40 +0300 (EEST)
+
+Final-Recipient: rfc822; tsankova@toplo-plenen.com
+Original-Recipient: rfc822;tsankova@toplo-plenen.com
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=toplo-plenen.com type=AAAA: Host not found
